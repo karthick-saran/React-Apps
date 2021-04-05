@@ -1,0 +1,21 @@
+{
+  "name": "React-Apps",
+  "version": "0.1.0",
+  "description": "An example module demo how to share react components",
+  "main": "build/index.js",
+  "repository": "https://github.com/karthick-saran/React-Apps.git",
+  "author": "Karthick",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^17.0.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1"
+  },
+  "scripts": {
+	  "build": "babel src -d build",
+	  "prepare": "yarn run build"
+  }
+}
